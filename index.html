@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArchitectsHive Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="icon" href="Hive Tag line 11 (1) (1).png" type="image/png">
+</head>
+<body>
+    <div class="main-content">
+        <div class="banner">
+            <div class="circle">
+               <a href="https://www.architectshive.com/" target="_blank" id="link-dream"> <img src="Hive Tag line 11 (1) (1).png" alt="Icon Image" class="icon-img"></a>
+            </div>
+        </div>
+<br>
+        <div class="content">
+            <h1 class="title">ArchitectsHive</h1>
+            <h4 class="quote">"We don't build in order to have clients.<br>&nbsp;&nbsp;&nbsp;We have clients in order to CNSTRCT."</h4>
+            <div class="social-icons">
+              <a href="https://instagram.com/architectshive_official" class="instagram" aria-label="Instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100089457390637" class="facebook" aria-label="Facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.youtube.com/@architectshive" class="youtube" aria-label="YouTube"><i class="bx bxl-youtube"></i></a>
+              <a href="https://www.architectshive.com/" class="website" aria-label="Website"><i class="bx bx-globe"></i></a>
+              <a href="mailto:contact@architectshive.com" class="email" aria-label="Email"><i class="bx bxl-gmail"></i></a>
+              <a href="tel:+919429692912" class="phone" aria-label="Phone"><i class="bx bx-phone"></i></a>
+              <a href="https://wa.me/+919429692912" class="whatsapp" aria-label="WhatsApp"><i class="bx bxl-whatsapp"></i></a>
+              <a href="https://maps.app.goo.gl/7T7K6EecAonqTw3w6" class="location" aria-label="Location"><i class="bx bxs-map"></i></a>
+          </div>
+
+        <body onload="runNumbers()">
+          <h1>
+              Your <a href="https://www.architectshive.com/" target="_blank" id="link-dream">Dream</a>, 
+              Our <a href="https://www.architectshive.com/projects" target="_blank" id="link-design">Design</a>, 
+              We <a href="https://www.architectshive.com/construct" target="_blank" id="link-cnstrct">CNSTRCT</a>
+          </h1>
+    <br>      
+          <div class="number-container">
+              <div class="number" id="number-0">0</div>
+              <div class="number-label">PROJECTS</div>
+          </div>
+          <div class="number-container">
+              <div class="number" id="number-1">0</div>
+              <div class="number-label">CLIENTS</div>
+          </div>
+          <div class="number-container">
+              <div class="number" id="number-2">0</div>
+              <div class="number-label">TEAM</div>
+          </div>
+          <div class="number-container">
+              <div class="number-wrapper">
+                  <span class="number" id="number-3">0</span>
+                  <span class="years-text">Yrs.</span>
+              </div>
+              <div class="number-label">EXPERIENCE</div>
+          </div>
+          <div class="number-container">
+              <div class="number" id="number-4">0</div>
+              <div class="number-label">CITIES</div>
+          </div>
+          <hr class="professional-line">
+        
+
+          
+       <!-- Show Projects Button -->
+       <div class="show-projects-container">
+        <button id="show-projects-btn" onclick="toggleProjects()">Our Projects</button>
+      </div>
+      <div class="status-container" id="statusContainer"></div>
+    
+      <div class="status-viewer" id="statusViewer">
+          <div class="status-bar" id="statusBar"></div>
+          <img class="status-content" id="statusContent" src="" alt="Status Content">
+          <div class="click-area left" id="leftClickArea"></div>
+          <div class="click-area right" id="rightClickArea"></div>
+          <button class="close-button" id="closeButton">&times;</button>
+      </div>
+
+<br>
+
+
+      <button id="uniqueToggleBtn" class="unique-toggle-btn">DeSIGNS</button>
+
+        <div id="imageGalleryContainer" class="unique-gallery-container">
+            <div id="imageSlider" class="unique-slider">
+                <div class="image-slide" data-link="https://www.architectshive.com/upto-500-sq-ft">
+                    <img src="architectural_plans-image/1.jpeg" alt="Architect Design Package: upto 500 Sq.Ft. Projects." class="unique-img">
+                    <p>Architect Design Package<br> Upto 500 Sq.Ft. Projects.</p>
+                </div>
+                <div class="image-slide" data-link="https://www.architectshive.com/plans-between-501-to-1000-sq-ft">
+                    <img src="architectural_plans-image/2.jpeg" alt="Architect Design Package: between 501 to 1000 Sq.Ft. Projects." class="unique-img">
+                    <p>Architect Design Package<br> Between 501 to 1000 Sq.Ft. Projects.</p>
+                </div>
+                <div class="image-slide" data-link="https://www.architectshive.com/plans-between-1001-to-1500-sq-ft">
+                    <img src="architectural_plans-image/3.jpeg" alt="Architect Design Package: between 1001 to 1500 Sq.Ft. Projects." class="unique-img">
+                    <p>Architect Design Package<br> Between 1001 to 1500 Sq.Ft. Projects.</p>
+                </div>
+                <div class="image-slide" data-link="https://www.architectshive.com/plans-between-1501-to-2000-sq-ft">
+                    <img src="architectural_plans-image/4.jpeg" alt="Architect Design Package: between 1501 to 2000 Sq.Ft. Projects." class="unique-img">
+                    <p>Architect Design Package<br> Between 1501 to 2000 Sq.Ft. Projects.</p>
+                </div>
+               <div class="image-slide" data-link="https://www.architectshive.com/plans-between-2001-to-2500-sq-ft">
+                    <img src="architectural_plans-image/5.jpeg" alt="Architect Design Package: between 2001 to 2500 Sq.Ft. Projects." class="unique-img">
+                  <p>Architect Design Package<br> Between 2001 to 2500 Sq.Ft. Projects.</p>
+               </div>
+               <div class="image-slide" data-link="https://www.architectshive.com/plans-between-2501-to-3000-sq-ft">
+                   <img src="architectural_plans-image/6.jpeg" alt="Architect Design Package: between 2501 to 3000 Sq.Ft. Projects." class="unique-img">
+                  <p>Architect Design Package<br> Between 2501 to 3000 Sq.Ft. Projects.</p>
+               </div>
+               <div class="image-slide" data-link="https://www.architectshive.com/plans-between-3001-to-3500-sq-ft">
+                   <img src="architectural_plans-image/7.jpeg" alt="Architect Design Package: between 3001 to 3500 Sq.Ft. Projects." class="unique-img">
+                  <p>Architect Design Package<br> Between 3001 to 3500 Sq.Ft. Projects.</p>
+               </div>
+               <div class="image-slide" data-link="https://www.architectshive.com/plans-between-3501-to-4000-sq-ft">
+                  <img src="architectural_plans-image/8.jpeg" alt="Architect Design Package: between 3501 to 4000 Sq.Ft. Projects." class="unique-img">
+                  <p>Architect Design Package<br> Between 3501 to 4000 Sq.Ft. Projects.</p>
+               </div>
+               <div class="image-slide" data-link="https://www.architectshive.com/plans-between-4001-to-4500-sq-ft">
+                  <img src="architectural_plans-image/9.jpeg" alt="Architect Design Package: between 4001 to 4500 Sq.Ft. Projects." class="unique-img">
+                  <p>Architect Design Package<br> Between 4001 to 4500 Sq.Ft. Projects.</p>
+                </div>
+                <div class="image-slide" data-link="https://www.architectshive.com/plans-between-4501-to-5000-sq-ft">
+                   <img src="architectural_plans-image/10.jpeg" alt="Architect Design Package: between 4501 to 5000 Sq.Ft. Projects." class="unique-img">
+                  <p>Architect Design Package<br> Between 4501 to 5000 Sq.Ft. Projects.</p>
+                </div>
+
+
+                <!-- Add more images up to 10 -->
+            </div>
+        </div>
+
+        <div id="websiteLinkContainer" class="unique-website-container">
+            <button id="closeLinkContainer" class="close-btn">X</button>
+            <iframe id="iframeContent" src="" frameborder="0"></iframe>
+        </div>
+
+<br>
+
+    <div id="toggleContainer">
+      <button id="toggleUniqueBtn">INTIRIA</button>
+      <div id="optionsContainer" style="display: flex;" class="unique-options-container">
+          <div class="unique-dropdown-container">
+              <button class="dropdown-toggle">Residential ▼</button>
+              <div class="dropdown-content">
+                  <a href="#" onclick="openContainer('plans/residential/standard_plan_for_residence.html')">Standard</a>
+                  <a href="#" onclick="openContainer('plans/residential/premium_plan_for_residence.html')">Premium</a>
+                  <a href="#" onclick="openContainer('plans/residential/elite_plan_for_residence.html')">Elite</a>
+              </div>
+          </div>
+          <div class="unique-dropdown-container">
+              <button class="dropdown-toggle">Commercial ▼</button>
+              <div class="dropdown-content">
+                  <a href="#" onclick="openContainer('plans/commercial/standard_plan_for_commercial.html')">Standard</a>
+                  <a href="#" onclick="openContainer('plans/commercial/premium_plan_for_commerical.html')">Premium</a>
+                  <a href="#" onclick="openContainer('plans/commercial/elite_plan_for_commercial.html')">Elite</a>
+              </div>
+          </div>
+          <div class="unique-dropdown-container">
+              <button class="dropdown-toggle">Industrial ▼</button>
+              <div class="dropdown-content">
+                  <a href="#" onclick="openContainer('plans/industrial/standard_plan_for_industrial.html')">Standard</a>
+                  <a href="#" onclick="openContainer('plans/industrial/premium_plan_for_industrial.html')">Premium</a>
+                  <a href="#" onclick="openContainer('plans/industrial/elite_plan_for_industrial.html')">Elite</a>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- Fullscreen Container -->
+    <div id="fullScreenContainer" class="unique-fullscreen-container">
+      <span id="unique-close-btn" class="close-btn" onclick="closeContainer()">X</span>
+      <iframe id="iframeContainer" src="" frameborder="0"></iframe>
+    </div>
+
+    <hr class="professional-line">
+
+    <!------User Info Form-->
+
+    <div class="form-container">
+      <h2>Request A Query </h2>
+      <form name="user-info" method="POST" data-netlify="true">
+          <div class="input-group">
+              
+              <input type="text" id="name" name="name" placeholder="Your Name*" required>
+          </div>
+          <div class="input-group">
+             
+              <input type="tel" id="mobile" name="mobile" placeholder="Your Mobile*" required>
+          </div>
+          <div class="input-group">
+             
+              <input type="email" id="email" name="email" placeholder="Your Email*" required>
+          </div>
+          <div class="input-group">
+             
+              <input type="text" id="location" name="location" placeholder=" Your Location" required>
+          </div>
+          <div class="input-group">
+              
+              <input type="text" id="address" name="address" placeholder=" Your Complete Address" required>
+          </div>
+          <button type="submit" class="submit-button"> Submit</button>
+      </form>
+      <p class="privacy-policy">
+          By submitting this form, you agree to our <a href="https://www.architectshive.com/blank-5">Privacy Policy</a>.
+      </p>
+    </div>
+    <br>
+    <hr class="professional-line">
+
+    <!---Offer Section-->
+
+    <div class="offers-container">
+      <div class="offers-title">
+          <h1>Our Recent Offers</h1>
+          <div class="red-line"></div>
+      </div>
+      <div class="offer-banner" id="offerBanner">
+          <div class="offer-card">
+              <h2>Offer 1</h2>
+              <p>Get 50% off on all online house plan packages! Limited time offer.</p>
+          </div>
+          <div class="offer-card">
+              <h2>Offer 2</h2>
+              <p>Receive a free site analysis report with every house plan purchase!</p>
+          </div>
+          <div class="offer-card">
+              <h2>Offer 3</h2>
+              <p>Get a free consultation for your custom house plan today.</p>
+          </div>
+          <div class="offer-card">
+              <h2>Offer 4</h2>
+              <p>Get a free consultation for your custom house plan today.</p>
+          </div>
+          <div class="offer-card">
+              <h2>Offer 5</h2>
+              <p>Free house plan modification service for 6 months with any new plan purchase.</p>
+          </div>
+      </div>
+    </div>
+
+
+    <footer class="footer">
+      <div class="container">
+          <p>&copy; <span id="currentYear"></span> All rights reserved to <strong>ArchitectsHive</strong>.</p>
+      </div>
+    </footer>
+
+        
+    </div>
+
+    <div class="status-viewer" id="statusViewer">
+        <div class="status-bar" id="statusBar"></div>
+        <div class="status-image" id="statusImage"></div>
+        <div class="nav-overlay">
+            <div class="nav-left" id="navLeft"></div>
+            <div class="nav-right" id="navRight"></div>
+        </div>
+        <div class="close-button" id="closeButton">✕</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
