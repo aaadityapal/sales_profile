@@ -19,6 +19,3 @@ ArchitectsHive is a web profile showcasing architectural services, projects, and
 - HTML
 - CSS
 - JavaScript
-
-## License
-This project is licensed under the MIT License.
